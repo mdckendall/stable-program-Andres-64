@@ -28,6 +28,11 @@ class Main {
 		}while(true);
 		//Display the info here
                 //You code here!
-	  }
-  }
+    {
+       // prints info
+    System.out.println("Horse #1 " + hn + ": " + w + ": " + t);
+    // closes the scanner
+    input.close();
+    }
+	}
 }
